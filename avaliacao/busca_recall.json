@@ -1,0 +1,759 @@
+{
+  "n": 42,
+  "recall@1": 0.8333333333333334,
+  "recall@3": 0.9285714285714286,
+  "mrr": 0.8895408163265305,
+  "por_categoria": {
+    "agua": {
+      "n": 1,
+      "recall@1": 0.0,
+      "recall@3": 0.0
+    },
+    "agua_detalhe_numerico": {
+      "n": 1,
+      "recall@1": 1.0,
+      "recall@3": 1.0
+    },
+    "alertas_canais": {
+      "n": 4,
+      "recall@1": 0.75,
+      "recall@3": 1.0
+    },
+    "alimentos_parafrase": {
+      "n": 1,
+      "recall@1": 1.0,
+      "recall@3": 1.0
+    },
+    "animais": {
+      "n": 1,
+      "recall@1": 1.0,
+      "recall@3": 1.0
+    },
+    "animais_peconhentos": {
+      "n": 1,
+      "recall@1": 1.0,
+      "recall@3": 1.0
+    },
+    "conceitos": {
+      "n": 1,
+      "recall@1": 1.0,
+      "recall@3": 1.0
+    },
+    "criancas": {
+      "n": 1,
+      "recall@1": 0.0,
+      "recall@3": 0.0
+    },
+    "deslizamento_prevencao": {
+      "n": 3,
+      "recall@1": 1.0,
+      "recall@3": 1.0
+    },
+    "deslizamento_sinais": {
+      "n": 1,
+      "recall@1": 0.0,
+      "recall@3": 1.0
+    },
+    "direitos_detalhe_numerico": {
+      "n": 1,
+      "recall@1": 1.0,
+      "recall@3": 1.0
+    },
+    "direitos_fgts": {
+      "n": 2,
+      "recall@1": 1.0,
+      "recall@3": 1.0
+    },
+    "durante_evacuacao": {
+      "n": 2,
+      "recall@1": 1.0,
+      "recall@3": 1.0
+    },
+    "energia_eletrica": {
+      "n": 1,
+      "recall@1": 0.0,
+      "recall@3": 1.0
+    },
+    "idosos_pcd": {
+      "n": 1,
+      "recall@1": 0.0,
+      "recall@3": 0.0
+    },
+    "kit_detalhe_numerico": {
+      "n": 1,
+      "recall@1": 1.0,
+      "recall@3": 1.0
+    },
+    "kit_emergencia": {
+      "n": 3,
+      "recall@1": 1.0,
+      "recall@3": 1.0
+    },
+    "limpeza": {
+      "n": 1,
+      "recall@1": 1.0,
+      "recall@3": 1.0
+    },
+    "limpeza_detalhe_numerico": {
+      "n": 1,
+      "recall@1": 1.0,
+      "recall@3": 1.0
+    },
+    "limpeza_seguranca": {
+      "n": 1,
+      "recall@1": 1.0,
+      "recall@3": 1.0
+    },
+    "niveis_alerta": {
+      "n": 2,
+      "recall@1": 1.0,
+      "recall@3": 1.0
+    },
+    "orgaos": {
+      "n": 1,
+      "recall@1": 1.0,
+      "recall@3": 1.0
+    },
+    "saude": {
+      "n": 1,
+      "recall@1": 1.0,
+      "recall@3": 1.0
+    },
+    "saude_detalhe_numerico": {
+      "n": 2,
+      "recall@1": 1.0,
+      "recall@3": 1.0
+    },
+    "saude_mental": {
+      "n": 1,
+      "recall@1": 1.0,
+      "recall@3": 1.0
+    },
+    "saude_parafrase": {
+      "n": 1,
+      "recall@1": 1.0,
+      "recall@3": 1.0
+    },
+    "saude_sintomas": {
+      "n": 1,
+      "recall@1": 1.0,
+      "recall@3": 1.0
+    },
+    "telefone": {
+      "n": 3,
+      "recall@1": 1.0,
+      "recall@3": 1.0
+    },
+    "transito": {
+      "n": 1,
+      "recall@1": 0.0,
+      "recall@3": 1.0
+    }
+  },
+  "detalhes": [
+    {
+      "id": "T001",
+      "categoria": "telefone",
+      "top3": [
+        "CGE-01-003",
+        "SEMIL-01-010",
+        "MIDR-01-002"
+      ],
+      "relevantes": [
+        "CGE-01-003"
+      ],
+      "posicao_primeiro_relevante": 1,
+      "similaridade_top1": 0.8810310959815979
+    },
+    {
+      "id": "T002",
+      "categoria": "niveis_alerta",
+      "top3": [
+        "CGE-01-007",
+        "CGE-01-008",
+        "CGE-01-006"
+      ],
+      "relevantes": [
+        "CGE-01-007"
+      ],
+      "posicao_primeiro_relevante": 1,
+      "similaridade_top1": 0.8841559290885925
+    },
+    {
+      "id": "T003",
+      "categoria": "niveis_alerta",
+      "top3": [
+        "CGE-01-007",
+        "CGE-01-008",
+        "CGE-01-002"
+      ],
+      "relevantes": [
+        "CGE-01-007"
+      ],
+      "posicao_primeiro_relevante": 1,
+      "similaridade_top1": 0.89579838514328
+    },
+    {
+      "id": "T004",
+      "categoria": "agua_detalhe_numerico",
+      "top3": [
+        "MS-01-006",
+        "MS-01-007",
+        "SMSSP-01-008"
+      ],
+      "relevantes": [
+        "MS-01-006",
+        "MS-03-020"
+      ],
+      "posicao_primeiro_relevante": 1,
+      "similaridade_top1": 0.8911077976226807
+    },
+    {
+      "id": "T005",
+      "categoria": "alertas_canais",
+      "top3": [
+        "MIDR-02-003",
+        "SEMIL-01-010",
+        "MIDR-01-001"
+      ],
+      "relevantes": [
+        "MIDR-01-001",
+        "SEMIL-01-010",
+        "MIDR-02-003"
+      ],
+      "posicao_primeiro_relevante": 1,
+      "similaridade_top1": 0.877328634262085
+    },
+    {
+      "id": "T006",
+      "categoria": "alertas_canais",
+      "top3": [
+        "SEMIL-01-010",
+        "MIDR-01-001",
+        "MIDR-01-002"
+      ],
+      "relevantes": [
+        "SEMIL-01-010"
+      ],
+      "posicao_primeiro_relevante": 1,
+      "similaridade_top1": 0.8507195711135864
+    },
+    {
+      "id": "T007",
+      "categoria": "alertas_canais",
+      "top3": [
+        "MIDR-02-004",
+        "MIDR-02-003",
+        "MIDR-01-001"
+      ],
+      "relevantes": [
+        "MIDR-02-004"
+      ],
+      "posicao_primeiro_relevante": 1,
+      "similaridade_top1": 0.9005197882652283
+    },
+    {
+      "id": "T008",
+      "categoria": "alertas_canais",
+      "top3": [
+        "MIDR-01-001",
+        "MIDR-02-003",
+        "MIDR-02-004"
+      ],
+      "relevantes": [
+        "MIDR-01-002",
+        "MIDR-02-003"
+      ],
+      "posicao_primeiro_relevante": 2,
+      "similaridade_top1": 0.8882169723510742
+    },
+    {
+      "id": "T009",
+      "categoria": "durante_evacuacao",
+      "top3": [
+        "MCID-01-006",
+        "MCID-01-005",
+        "MS-03-018"
+      ],
+      "relevantes": [
+        "SEMIL-01-007",
+        "MCID-01-006"
+      ],
+      "posicao_primeiro_relevante": 1,
+      "similaridade_top1": 0.8734316825866699
+    },
+    {
+      "id": "T010",
+      "categoria": "alimentos_parafrase",
+      "top3": [
+        "MS-01-008",
+        "SMSSP-01-004",
+        "MS-03-020"
+      ],
+      "relevantes": [
+        "MS-01-008",
+        "MS-01-005"
+      ],
+      "posicao_primeiro_relevante": 1,
+      "similaridade_top1": 0.8560723066329956
+    },
+    {
+      "id": "T011",
+      "categoria": "criancas",
+      "top3": [
+        "MCID-01-005",
+        "MS-03-019",
+        "SMSSP-01-002"
+      ],
+      "relevantes": [
+        "COMDEC-01-005"
+      ],
+      "posicao_primeiro_relevante": 5,
+      "similaridade_top1": 0.838362455368042
+    },
+    {
+      "id": "T012",
+      "categoria": "deslizamento_sinais",
+      "top3": [
+        "DCSP-01-001",
+        "MCID-01-004",
+        "DCSP-01-003"
+      ],
+      "relevantes": [
+        "DCSP-01-003",
+        "MCID-01-004"
+      ],
+      "posicao_primeiro_relevante": 2,
+      "similaridade_top1": 0.8789752721786499
+    },
+    {
+      "id": "T013",
+      "categoria": "saude_detalhe_numerico",
+      "top3": [
+        "MS-02-001",
+        "MS-02-002",
+        "MS-01-009"
+      ],
+      "relevantes": [
+        "MS-02-001"
+      ],
+      "posicao_primeiro_relevante": 1,
+      "similaridade_top1": 0.8947622776031494
+    },
+    {
+      "id": "T014",
+      "categoria": "saude_sintomas",
+      "top3": [
+        "MS-02-003",
+        "MS-02-001",
+        "MS-02-002"
+      ],
+      "relevantes": [
+        "MS-02-003",
+        "COMDEC-01-007"
+      ],
+      "posicao_primeiro_relevante": 1,
+      "similaridade_top1": 0.9104797840118408
+    },
+    {
+      "id": "T015",
+      "categoria": "limpeza_detalhe_numerico",
+      "top3": [
+        "SMSSP-01-006",
+        "SMSSP-01-008",
+        "SMSSP-01-007"
+      ],
+      "relevantes": [
+        "SMSSP-01-006"
+      ],
+      "posicao_primeiro_relevante": 1,
+      "similaridade_top1": 0.8985434770584106
+    },
+    {
+      "id": "T016",
+      "categoria": "orgaos",
+      "top3": [
+        "CGE-01-008",
+        "CGE-01-007",
+        "CGE-01-006"
+      ],
+      "relevantes": [
+        "CGE-01-008"
+      ],
+      "posicao_primeiro_relevante": 1,
+      "similaridade_top1": 0.8979326486587524
+    },
+    {
+      "id": "T017",
+      "categoria": "telefone",
+      "top3": [
+        "CGE-01-002",
+        "MIDR-03-004",
+        "MIDR-03-001"
+      ],
+      "relevantes": [
+        "CGE-01-002"
+      ],
+      "posicao_primeiro_relevante": 1,
+      "similaridade_top1": 0.8660176992416382
+    },
+    {
+      "id": "T018",
+      "categoria": "animais",
+      "top3": [
+        "MS-03-016",
+        "MS-03-021",
+        "MS-03-011"
+      ],
+      "relevantes": [
+        "MS-03-016"
+      ],
+      "posicao_primeiro_relevante": 1,
+      "similaridade_top1": 0.8760440945625305
+    },
+    {
+      "id": "T019",
+      "categoria": "transito",
+      "top3": [
+        "COMDEC-01-006",
+        "MCID-01-007",
+        "CGE-01-003"
+      ],
+      "relevantes": [
+        "MCID-01-007",
+        "MIDR-03-004"
+      ],
+      "posicao_primeiro_relevante": 2,
+      "similaridade_top1": 0.8556129932403564
+    },
+    {
+      "id": "T020",
+      "categoria": "energia_eletrica",
+      "top3": [
+        "MCID-01-005",
+        "COMDEC-01-008",
+        "CGE-01-003"
+      ],
+      "relevantes": [
+        "COMDEC-01-008",
+        "MS-03-019"
+      ],
+      "posicao_primeiro_relevante": 2,
+      "similaridade_top1": 0.8377587795257568
+    },
+    {
+      "id": "T021",
+      "categoria": "limpeza",
+      "top3": [
+        "SMSSP-01-007",
+        "COMDEC-01-008",
+        "MS-01-011"
+      ],
+      "relevantes": [
+        "SMSSP-01-007"
+      ],
+      "posicao_primeiro_relevante": 1,
+      "similaridade_top1": 0.8864795565605164
+    },
+    {
+      "id": "T022",
+      "categoria": "limpeza_seguranca",
+      "top3": [
+        "SMSSP-01-008",
+        "MS-01-007",
+        "SMSSP-01-007"
+      ],
+      "relevantes": [
+        "SMSSP-01-008"
+      ],
+      "posicao_primeiro_relevante": 1,
+      "similaridade_top1": 0.8449094295501709
+    },
+    {
+      "id": "T023",
+      "categoria": "saude_detalhe_numerico",
+      "top3": [
+        "MS-01-003",
+        "SMSSP-01-009",
+        "MS-01-005"
+      ],
+      "relevantes": [
+        "MS-01-003"
+      ],
+      "posicao_primeiro_relevante": 1,
+      "similaridade_top1": 0.9107901453971863
+    },
+    {
+      "id": "T024",
+      "categoria": "kit_emergencia",
+      "top3": [
+        "ABR-01-001",
+        "MIDR-02-001",
+        "ABR-01-002"
+      ],
+      "relevantes": [
+        "ABR-01-001",
+        "MIDR-03-003",
+        "MS-03-005"
+      ],
+      "posicao_primeiro_relevante": 1,
+      "similaridade_top1": 0.901170015335083
+    },
+    {
+      "id": "T025",
+      "categoria": "kit_detalhe_numerico",
+      "top3": [
+        "ABR-01-001",
+        "MS-03-010",
+        "MS-03-005"
+      ],
+      "relevantes": [
+        "ABR-01-001"
+      ],
+      "posicao_primeiro_relevante": 1,
+      "similaridade_top1": 0.8636124134063721
+    },
+    {
+      "id": "T026",
+      "categoria": "kit_emergencia",
+      "top3": [
+        "MIDR-02-001",
+        "ABR-01-002",
+        "ABR-01-001"
+      ],
+      "relevantes": [
+        "MIDR-02-001",
+        "ABR-01-002"
+      ],
+      "posicao_primeiro_relevante": 1,
+      "similaridade_top1": 0.8835333585739136
+    },
+    {
+      "id": "T027",
+      "categoria": "direitos_fgts",
+      "top3": [
+        "FGTS-01-002",
+        "FGTS-01-001",
+        "FGTS-01-003"
+      ],
+      "relevantes": [
+        "FGTS-01-002",
+        "FGTS-01-001"
+      ],
+      "posicao_primeiro_relevante": 1,
+      "similaridade_top1": 0.8948953151702881
+    },
+    {
+      "id": "T028",
+      "categoria": "direitos_fgts",
+      "top3": [
+        "FGTS-01-001",
+        "FGTS-01-003",
+        "FGTS-01-002"
+      ],
+      "relevantes": [
+        "FGTS-01-001"
+      ],
+      "posicao_primeiro_relevante": 1,
+      "similaridade_top1": 0.8811382055282593
+    },
+    {
+      "id": "T029",
+      "categoria": "direitos_detalhe_numerico",
+      "top3": [
+        "FGTS-01-003",
+        "FGTS-01-002",
+        "FGTS-01-001"
+      ],
+      "relevantes": [
+        "FGTS-01-003"
+      ],
+      "posicao_primeiro_relevante": 1,
+      "similaridade_top1": 0.8948543071746826
+    },
+    {
+      "id": "T030",
+      "categoria": "conceitos",
+      "top3": [
+        "MIDR-03-005",
+        "MS-01-002",
+        "SEMIL-01-002"
+      ],
+      "relevantes": [
+        "MIDR-03-005"
+      ],
+      "posicao_primeiro_relevante": 1,
+      "similaridade_top1": 0.9046494960784912
+    },
+    {
+      "id": "T031",
+      "categoria": "deslizamento_prevencao",
+      "top3": [
+        "DCSP-01-002",
+        "MS-03-019",
+        "SMSSP-01-001"
+      ],
+      "relevantes": [
+        "DCSP-01-002"
+      ],
+      "posicao_primeiro_relevante": 1,
+      "similaridade_top1": 0.8457050323486328
+    },
+    {
+      "id": "T032",
+      "categoria": "deslizamento_prevencao",
+      "top3": [
+        "DCSP-01-001",
+        "MS-03-003",
+        "MCID-01-004"
+      ],
+      "relevantes": [
+        "DCSP-01-001"
+      ],
+      "posicao_primeiro_relevante": 1,
+      "similaridade_top1": 0.845140814781189
+    },
+    {
+      "id": "T033",
+      "categoria": "deslizamento_prevencao",
+      "top3": [
+        "MCID-01-004",
+        "DCSP-01-002",
+        "DCSP-01-003"
+      ],
+      "relevantes": [
+        "MCID-01-004"
+      ],
+      "posicao_primeiro_relevante": 1,
+      "similaridade_top1": 0.862044095993042
+    },
+    {
+      "id": "T034",
+      "categoria": "durante_evacuacao",
+      "top3": [
+        "MCID-01-007",
+        "MIDR-03-004",
+        "CGE-01-002"
+      ],
+      "relevantes": [
+        "MCID-01-007"
+      ],
+      "posicao_primeiro_relevante": 1,
+      "similaridade_top1": 0.8714210987091064
+    },
+    {
+      "id": "T035",
+      "categoria": "idosos_pcd",
+      "top3": [
+        "COMDEC-01-003",
+        "COMDEC-01-002",
+        "MCID-01-005"
+      ],
+      "relevantes": [
+        "MS-03-004"
+      ],
+      "posicao_primeiro_relevante": 28,
+      "similaridade_top1": 0.8777742385864258
+    },
+    {
+      "id": "T036",
+      "categoria": "kit_emergencia",
+      "top3": [
+        "MS-03-005",
+        "MS-03-003",
+        "MCID-01-005"
+      ],
+      "relevantes": [
+        "MS-03-005"
+      ],
+      "posicao_primeiro_relevante": 1,
+      "similaridade_top1": 0.8645501136779785
+    },
+    {
+      "id": "T037",
+      "categoria": "saude_parafrase",
+      "top3": [
+        "MS-03-012",
+        "MS-03-013",
+        "MS-02-006"
+      ],
+      "relevantes": [
+        "MS-03-012"
+      ],
+      "posicao_primeiro_relevante": 1,
+      "similaridade_top1": 0.8585203289985657
+    },
+    {
+      "id": "T038",
+      "categoria": "animais_peconhentos",
+      "top3": [
+        "MS-01-011",
+        "MS-03-020",
+        "MS-01-010"
+      ],
+      "relevantes": [
+        "MS-01-011"
+      ],
+      "posicao_primeiro_relevante": 1,
+      "similaridade_top1": 0.860295832157135
+    },
+    {
+      "id": "T039",
+      "categoria": "saude",
+      "top3": [
+        "MS-01-013",
+        "MS-03-011",
+        "MS-03-007"
+      ],
+      "relevantes": [
+        "MS-01-013"
+      ],
+      "posicao_primeiro_relevante": 1,
+      "similaridade_top1": 0.8864813446998596
+    },
+    {
+      "id": "T040",
+      "categoria": "telefone",
+      "top3": [
+        "MS-03-006",
+        "SEMIL-01-010",
+        "MIDR-02-003"
+      ],
+      "relevantes": [
+        "MS-03-006"
+      ],
+      "posicao_primeiro_relevante": 1,
+      "similaridade_top1": 0.8562709093093872
+    },
+    {
+      "id": "T041",
+      "categoria": "saude_mental",
+      "top3": [
+        "MS-01-004",
+        "MS-01-003",
+        "SMSSP-01-009"
+      ],
+      "relevantes": [
+        "MS-01-004"
+      ],
+      "posicao_primeiro_relevante": 1,
+      "similaridade_top1": 0.8691767454147339
+    },
+    {
+      "id": "T042",
+      "categoria": "agua",
+      "top3": [
+        "MS-03-010",
+        "MS-03-020",
+        "SMSSP-01-003"
+      ],
+      "relevantes": [
+        "SEMIL-01-009"
+      ],
+      "posicao_primeiro_relevante": 8,
+      "similaridade_top1": 0.8349562883377075
+    }
+  ],
+  "arquivo": "teste.jsonl",
+  "modelo_embeddings": "intfloat/multilingual-e5-base"
+}

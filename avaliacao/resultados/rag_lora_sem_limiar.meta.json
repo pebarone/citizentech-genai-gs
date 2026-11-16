@@ -1,0 +1,17 @@
+{
+  "configuracao": "rag_lora",
+  "modelo": "Qwen/Qwen2.5-3B-Instruct",
+  "adaptador": "lora-alerta-corrego",
+  "modelo_embeddings": "intfloat/multilingual-e5-base",
+  "n_trechos": 101,
+  "top_k": 3,
+  "limiar": null,
+  "nome": "rag_lora_sem_limiar",
+  "arquivo": "teste.jsonl",
+  "sem_limiar": true,
+  "limite": null,
+  "n_casos": 60,
+  "max_new_tokens": 256,
+  "semente": 42,
+  "data": "2026-11-15T20:54:36"
+}

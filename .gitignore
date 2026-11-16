@@ -1,0 +1,27 @@
+# ambiente e caches
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# índice de embeddings (recriado automaticamente a partir de base/trechos.jsonl)
+base/indice/
+
+# checkpoints intermediários do treino (o adaptador final em modelos/lora-alerta-corrego/ vai para o git)
+modelos/_checkpoints/
+modelos/_fumaca/
+
+# front-end (dependências e build ficam a cargo do projeto web)
+web/node_modules/
+
+# sistema
+.DS_Store
+Thumbs.db
+
+# logs locais de execução
+logs/
+
+# enunciado da FIAP (material de terceiros)
+*.pdf

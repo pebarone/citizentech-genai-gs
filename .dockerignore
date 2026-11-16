@@ -1,0 +1,12 @@
+.venv
+**/__pycache__
+.pytest_cache
+.ipynb_checkpoints
+base/indice
+modelos/_checkpoints
+web/node_modules
+notebooks
+tests
+treino
+avaliacao/resultados
+*.pdf

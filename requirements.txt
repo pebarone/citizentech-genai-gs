@@ -1,0 +1,29 @@
+# Dependências diretas (versões fixadas a partir do ambiente usado no projeto, Python 3.11).
+# O torch com CUDA 12.4 vem do índice do PyTorch; instale-o ANTES do restante:
+#   pip install torch==2.6.0 --index-url https://download.pytorch.org/whl/cu124
+# (CPU apenas: --index-url https://download.pytorch.org/whl/cpu)
+# Depois:
+#   pip install -r requirements.txt
+#   pip install -e .
+torch==2.6.0
+transformers==4.57.6
+peft==0.21.3
+bitsandbytes==0.50.2
+accelerate==1.15.0
+datasets==5.0.1
+sentence-transformers==5.7.0
+safetensors==0.8.0
+huggingface-hub==0.36.2
+numpy==2.4.6
+pandas==3.1.1
+matplotlib==3.11.2
+tabulate==0.10.0
+fastapi==0.163.1
+uvicorn==0.54.0
+pydantic==2.14.3
+jupyter==1.1.1
+nbconvert==7.17.2
+nbformat==5.11.1
+ipykernel==7.4.0
+pytest==9.2.0
+httpx==0.28.1

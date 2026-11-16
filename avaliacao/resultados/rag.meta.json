@@ -1,0 +1,17 @@
+{
+  "configuracao": "rag",
+  "modelo": "Qwen/Qwen2.5-3B-Instruct",
+  "adaptador": null,
+  "modelo_embeddings": "intfloat/multilingual-e5-base",
+  "n_trechos": 101,
+  "top_k": 3,
+  "limiar": 0.815,
+  "nome": "rag",
+  "arquivo": "teste.jsonl",
+  "sem_limiar": false,
+  "limite": null,
+  "n_casos": 60,
+  "max_new_tokens": 256,
+  "semente": 42,
+  "data": "2026-11-15T20:37:38"
+}

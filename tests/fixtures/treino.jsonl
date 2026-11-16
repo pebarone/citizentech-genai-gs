@@ -1,0 +1,4 @@
+{"id": "tr-001", "pergunta": "Como faço para receber SMS de alerta?", "tipo": "responde", "resposta": "Envie o CEP da sua casa para 40199. É grátis.", "trechos_relevantes": ["dc-02-001"]}
+{"id": "tr-002", "pergunta": "Devo desligar a luz na enchente?", "tipo": "responde", "resposta": "Sim. Desligue a energia no quadro de luz e vá para um local alto.", "trechos_relevantes": ["dc-01-002"]}
+{"id": "tr-003", "pergunta": "Qual o telefone da prefeitura regional?", "tipo": "nao_consta", "resposta": "Não consta na base. Em caso de risco, ligue 199 ou 193.", "trechos_relevantes": []}
+{"id": "tr-004", "pergunta": "Posso comer comida que molhou na enchente?", "tipo": "responde", "resposta": "Não. Jogue fora alimentos que tiveram contato com a água da enchente.", "trechos_relevantes": ["dc-01-003"]}

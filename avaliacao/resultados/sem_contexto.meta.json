@@ -1,0 +1,17 @@
+{
+  "configuracao": "sem_contexto",
+  "modelo": "Qwen/Qwen2.5-3B-Instruct",
+  "adaptador": null,
+  "modelo_embeddings": null,
+  "n_trechos": 0,
+  "top_k": 0,
+  "limiar": null,
+  "nome": "sem_contexto",
+  "arquivo": "teste.jsonl",
+  "sem_limiar": false,
+  "limite": null,
+  "n_casos": 60,
+  "max_new_tokens": 256,
+  "semente": 42,
+  "data": "2026-11-15T16:37:13"
+}

@@ -1,0 +1,56 @@
+{
+  "n_exemplos": 500,
+  "por_tipo": {
+    "nao_consta": 140,
+    "responde": 360
+  },
+  "por_split": {
+    "treino": 450,
+    "validacao": 50
+  },
+  "por_split_e_tipo": {
+    "treino": {
+      "responde": 324,
+      "nao_consta": 126
+    },
+    "validacao": {
+      "nao_consta": 14,
+      "responde": 36
+    }
+  },
+  "por_categoria": null,
+  "tokens_prompt": {
+    "media": 1195.2,
+    "max": 1352,
+    "min": 1060
+  },
+  "tokens_alvo": {
+    "media": 62.3,
+    "max": 118,
+    "min": 32
+  },
+  "exemplos_com_contexto_truncado": 0,
+  "exemplos_com_relevante_inserido": 79,
+  "cobertura": {
+    "trechos_distintos_no_contexto": 101,
+    "fontes_distintas_no_contexto": 14,
+    "trechos_distintos_citados_no_alvo": 101,
+    "trechos_na_base": 101,
+    "fontes_na_base": 14
+  },
+  "vazamento": {
+    "teste": {
+      "n_perguntas_conjunto": 60,
+      "perguntas_em_comum": 0,
+      "exemplos": []
+    },
+    "dev": {
+      "n_perguntas_conjunto": 30,
+      "perguntas_em_comum": 0,
+      "exemplos": []
+    }
+  },
+  "sem_vazamento": true,
+  "arquivo": "perguntas_treino.jsonl",
+  "max_len": 1536
+}

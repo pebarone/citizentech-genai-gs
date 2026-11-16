@@ -1,0 +1,3 @@
+fonte_id,titulo,orgao,url,formato,licenca,data_acesso,n_trechos
+dc-01,Guia de Enchentes (fixture),Defesa Civil (fixture),https://exemplo.gov.br/guia,PDF,uso público,2026-11-01,3
+dc-02,Alertas por SMS (fixture),Defesa Civil (fixture),https://exemplo.gov.br/sms,HTML,uso público,2026-11-01,2
