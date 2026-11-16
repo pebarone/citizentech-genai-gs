@@ -89,7 +89,7 @@ class LimitadorTaxa:
 
 # ---------------------------------------------------------------- emergência
 _EMERGENCIA = [
-    r"agua (esta )?(entrando|invadindo|subindo)",
+    r"agua (esta |ta )?(entrando|invadindo|subindo)",
     r"(entrando|entrou|invadiu|invadindo) agua",
     r"\bpres[oa]s?\b",
     r"\bilhad[oa]s?\b",

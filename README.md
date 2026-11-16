@@ -6,7 +6,7 @@
 LLM local (Qwen2.5-3B, 4 bits) que responde dúvidas de moradores sobre enchentes **só com base em
 documentos oficiais**, em JSON, citando a fonte e respondendo "não consta" quando a base não cobre.
 
-**Relatório completo:** [docs/RELATORIO.md](docs/RELATORIO.md)
+**Relatório completo:** [docs/RELATORIO.md](docs/RELATORIO.md) · **Vídeo:** [demonstração no YouTube](https://www.youtube.com/watch?v=P-Zmz2omcuM)
 
 | Nome completo | RM |
 |---|---|

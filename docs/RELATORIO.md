@@ -214,4 +214,4 @@ da recusa contraditória.
 |---|---|
 | Repositório | https://github.com/pebarone/citizentech-genai-gs |
 | MVP da equipe | https://github.com/pebarone/citizentech-devops-gs |
-| Vídeo | _a preencher_ |
+| Vídeo | https://www.youtube.com/watch?v=P-Zmz2omcuM |
