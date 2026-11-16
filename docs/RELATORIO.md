@@ -107,6 +107,8 @@ serviço de segurança, recusar uma dúvida real custa mais do que deixar passar
 que a LLM ainda pode recusar. O teste nunca foi usado na calibração.
 Detalhes: [notebook 02](../notebooks/02_busca_recall_e_limiar.ipynb), [limiar.json](../avaliacao/limiar.json).
 
+![Varredura do limiar de similaridade](../avaliacao/graficos/limiar_varredura.png)
+
 ### 5.2 Técnica de treino (QLoRA)
 
 Valores lidos de [avaliacao/treino_log.json](../avaliacao/treino_log.json) e
@@ -137,6 +139,8 @@ cortava os trechos do contexto em todos os exemplos; e o batch caiu de 4 para 2.
 VRAM passou dos 8 GB da placa e o Windows usou memória compartilhada, o que deixou o treino mais lento.
 Curva de perda e exemplos do dataset no [notebook 04](../notebooks/04_especializacao_lora.ipynb);
 ficha dos dados em [treino/README.md](../treino/README.md).
+
+![Perda de treino e de validação do LoRA](../avaliacao/graficos/treino_perda.png)
 
 ### 5.3 Placar
 
@@ -215,3 +219,15 @@ da recusa contraditória.
 | Repositório | https://github.com/pebarone/citizentech-genai-gs |
 | MVP da equipe | https://github.com/pebarone/citizentech-devops-gs |
 | Vídeo | https://www.youtube.com/watch?v=P-Zmz2omcuM |
+
+## 9. Telas do chat
+
+Capturas do chat servido pela API, com o modelo real na configuração RAG + LoRA.
+
+| Tela inicial | Resposta com a fonte citada |
+|---|---|
+| ![Tela inicial com perguntas sugeridas](img/chat-inicio.png) | ![Resposta com o trecho da fonte aberto](img/chat-resposta-com-fonte.png) |
+
+| Aviso de emergência (199 e 193) | Recusa pelo limiar, com a explicação |
+|---|---|
+| ![Aviso de emergência acima da resposta](img/chat-emergencia.png) | ![Recusa de injeção de prompt](img/chat-recusa.png) |

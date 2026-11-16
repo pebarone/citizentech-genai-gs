@@ -14,6 +14,14 @@ documentos oficiais**, em JSON, citando a fonte e respondendo "não consta" quan
 | Pedro Augusto Carneiro Barone Bomfim | 99781 |
 | Matheus Augusto Santos Rego | 551466 |
 
+## Demonstração
+
+Telas do chat com o modelo real (RAG + LoRA). Mais telas no [relatório](docs/RELATORIO.md#9-telas-do-chat).
+
+| Responde citando a fonte | Recusa quando não consta |
+|---|---|
+| ![Resposta com o trecho da fonte aberto](docs/img/chat-resposta-com-fonte.png) | ![Recusa pelo limiar de similaridade](docs/img/chat-recusa.png) |
+
 ## Resultado (60 perguntas de teste, mesma decodificação nas três configurações)
 
 | Configuração | Acerto | Fatos cobertos | Recusa indevida | Recusa correta ("não consta") | Citação correta | JSON válido |
