@@ -94,6 +94,10 @@ Rode uma etapa de GPU por vez. Os notebooks leem os resultados gravados (`REEXEC
 URL, trecho e similaridade) e a explicação da decisão (limiar, similaridade, configuração).
 Também: `GET /api/v1/info`, `/healthz`, `/readyz` e documentação em `/docs`.
 
+Nesta versão a API roda localmente (exige GPU) e é consumida pelo chat em `web/`. Ela ainda não está
+ligada ao [MVP publicado](https://github.com/pebarone/citizentech-devops-gs), que roda numa VM sem GPU; a
+integração prevista é a tela do cidadão chamar esta mesma rota.
+
 Segurança e LGPD: o texto da pergunta não é armazenado, o log guarda só hash e métricas, há limite de
 tamanho e de taxa, e os trechos entram no prompt marcados como dados. Detalhes no
 [relatório, seção 7](docs/RELATORIO.md#7-segurança-explicabilidade-e-lgpd).

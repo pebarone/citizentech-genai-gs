@@ -20,7 +20,7 @@ Global Solution 2026.2 · FIAP · Engenharia de Software 4º ano · Atividade "T
 | Entrada / saída | Pergunta em texto livre → JSON `{"resposta", "fontes": [ids], "consta_na_base"}`. |
 | Modelo | `Qwen/Qwen2.5-3B-Instruct` (3,09 bi de parâmetros), local, quantizado em 4 bits. Busca com `intfloat/multilingual-e5-base`. |
 | Especialização | Adaptador LoRA (QLoRA) treinado em 500 exemplos próprios. |
-| Integração | API FastAPI (`POST /api/v1/assistente/perguntar`) consumida pelo MVP e por um chat web servido pela própria API. |
+| Integração | API FastAPI (`POST /api/v1/assistente/perguntar`), com contrato em `/docs`, consumida hoje pelo chat web servido pela própria API. Nesta versão o assistente roda localmente (exige GPU) e ainda não está ligado ao MVP publicado na Azure; o próximo passo é a tela do cidadão do MVP chamar essa mesma rota. |
 | Pessoa no circuito | A IA orienta; quem decide resgate é a Defesa Civil. Os telefones 199 e 193 ficam sempre visíveis e perguntas com sinal de emergência recebem um aviso fixo. |
 | ODS | 11 (meta 11.5), 13 (meta 13.1) e 10 (meta 10.2). |
 
